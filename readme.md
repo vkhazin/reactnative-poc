@@ -26,3 +26,9 @@
 * Able to distribute new version for testing purposes
 * Able to publish app to Google & iOS app stores
 * Sound coding practices: separation of concerns, test-ability, modern javascript, no hard-coded values
+
+## How to contribute
+
+* Fork this repository
+* Commit changes to your own repository
+* Submit your work by creating a pull request from your repository to this repository
