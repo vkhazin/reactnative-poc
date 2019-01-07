@@ -15,6 +15,7 @@
 * Document how to distribute application for testing purposes in user user-friendly fashion, e.g.: https://www.installrapp.com/ or a similar service, low cost or free
 * Document how to publish application to Andorid and iOS app stores for release to consumers
 * Use markdown format for all documentation
+* App must support background tasks on iOS and on Android
 
 
 ## Acceptance Criteria
