@@ -37,13 +37,17 @@
 
 ## Setting up Developing Enviroment
 
-Please refer to below link for setting up Develping environment.    
-https://facebook.github.io/react-native/docs/getting-started
+* [Setting up Develping environment](https://facebook.github.io/react-native/docs/getting-started)
+* A possible error on MacOS:
+```
+xcrun: error: unable to find utility "instruments", not a developer tool or in PATH
+```
+* [Resolution](http://www.seanbehan.com/how-to-fix-xcrun-error-unable-to-find-utility-instruments-not-a-developer-tool-or-in-path/) is to launch XCode and agree to the terms first. Then go to Preferences > Locations and you'll see a select tag for Command Line Tools. Click this select box and choose the version of XCode installed
 
 
 ## Runing iOS/Android locally
 
 * Go to project directory (on terminal for mac, gitbash or cmd for windows).     
 * npm install or yarn install        
-* To build Android, react-native run-android   
-* To build iOS, react-native run-ios
+* To build Android: react-native run-android   
+* To build iOS: react-native run-ios
