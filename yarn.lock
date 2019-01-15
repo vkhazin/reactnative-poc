@@ -4610,7 +4610,7 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
-react-native-gesture-handler@^1.0.0:
+react-native-gesture-handler@^1.0.0, react-native-gesture-handler@^1.0.12:
   version "1.0.12"
   resolved "https://registry.yarnpkg.com/react-native-gesture-handler/-/react-native-gesture-handler-1.0.12.tgz#99a22f90212df299245357dbd3a9a01c788f310b"
   integrity sha512-Qp5FjRmqUFeCevSu2IYQG1Xw+YXZ9YOzqze/ZxaIvWzYAoKsRchlgHhNoxvCqElp/befrnVFIjAEQyUxcmBKJw==
@@ -4618,6 +4618,11 @@ react-native-gesture-handler@^1.0.0:
     hoist-non-react-statics "^2.3.1"
     invariant "^2.2.2"
     prop-types "^15.5.10"
+
+react-native-ping@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-native-ping/-/react-native-ping-1.1.1.tgz#c253503c76fa07cd7db4d7aa23de24ec14cc7f07"
+  integrity sha512-ve5Qm7+q7jX6CK4tyXITkNY3QqKn5ComEBMcZQ3pUQIl1F0HlKB1oU0LSaaHHWQUkjajCFpY4W+zN2WH5R3ZdQ==
 
 react-native-safe-area-view@^0.11.0:
   version "0.11.0"
