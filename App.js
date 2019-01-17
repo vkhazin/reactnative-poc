@@ -12,6 +12,7 @@ import ScreenB from './src/screen2';
 
 
 YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated']);
+YellowBox.ignoreWarnings(['Debugger and device times have']);
 YellowBox.ignoreWarnings(["Can't perform a React state"]);
 YellowBox.ignoreWarnings(['Remote debugger is in a background']);
 const App = createStackNavigator(
