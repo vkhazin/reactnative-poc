@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "start": "./scripts/serve.sh",
+    "start-bak": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
   "dependencies": {
@@ -11,7 +12,8 @@
     "react-native": "0.57.8",
     "react-native-gesture-handler": "^1.0.12",
     "react-native-ping": "^1.1.1",
-    "react-navigation": "^3.0.9"
+    "react-navigation": "^3.0.9",
+    "expo": "^31.0.2"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
